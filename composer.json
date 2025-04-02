@@ -1,0 +1,25 @@
+{
+  "name": "robpounder/streetcouk",
+  "description": "Code Test for Street.co.uk",
+  "authors": [
+    {
+      "name": "Robert Pounder",
+      "email": "rob.j.pounder@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Street\\": "src/"
+    },
+    "files": []
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^12.0.10",
+    "fakerphp/faker": "^v1.24.1"
+  }
+}
